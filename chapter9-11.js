@@ -43,7 +43,18 @@
 // document.write(message);
 
 
-//4...) Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25 litres, show the message "Please refill the fuel in your car"
+// //4...) Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25 litres, show the message "Please refill the fuel in your car"
+
+// let fuel = prompt("Enter remaining fuel in car (in litres)...");
+
+// if(fuel < 0.25){
+//     var message = ("Please refill the fuel in your car..!");
+// }else{
+//     var message = ("You have enough fuel..!");
+// }
+// document.write(message);
+
+
 
 //5...) Run this script, & check whether alert messsage would be displayed or not. Record the outputs.
 
@@ -87,19 +98,48 @@
 // document.write("Remark's: " + Remarks + "<br>")
 
 
-// 7...) Guess game: Store asecret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. 
-//  a..) If user's guesses the same number, show "Bingo! Correct Answer".
-//  b..) If the guessed number +1 is the secret number, show "Close, enough to the correct answer".
+// // 7...) Guess game: Store asecret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. 
+// //  a..) If user's guesses the same number, show "Bingo! Correct Answer".
+// //  b..) If the guessed number +1 is the secret number, show "Close, enough to the correct answer".
+
+// let secretNumber = Math.floor(Math.random() * 10) + 1;
+
+// let userGuess = parseInt(prompt("Guess the secret number (1-10):"));
+
+// if(userGuess === secretNumber){
+//     var message = ("Bingo! Correct Answer.");
+// }else if(userGuess + 1 === secretNumber){
+//     var message = ("Close, enough to the correct answer.");
+// }else{
+//     var message = ("Sorry, your guess is not correct.");
+// }
+// document.write(message);
 
 
 
+// // 8...) Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
 
-// 8...) Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+// let number = prompt("Enter a number...");
+
+// if(number % 3 === 0){
+//     var message = ("Number " + number + " is divisible by 3.");
+// }else{
+//     var message = ("Number " + number + " is not divisible by 3.");
+// }
+// document.write(message);
 
 
 
+// // 9...) Write a program that checks whether the given input is an even number or an odd number...
 
-// 9...) Write a program that checks whether the given input is an even number or an odd number.
+// let number = prompt("Enter a number...");
+
+// if(number % 2 === 0){
+//     var message = ("Number is even.");
+// }else{
+//     var message = ("Number is odd.");
+// }
+// document.write(message);
 
 
 
@@ -154,8 +194,7 @@
 //         alert("Cannot percentage by zero!");
 //     }else{
 //         result = Number(num1) % Number(num2);}
-// }
-// else{
+// }else{
 //     alert("Invalid operator!");}
 // document.write("Result: " + result);
 
