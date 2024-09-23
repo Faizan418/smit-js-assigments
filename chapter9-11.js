@@ -18,11 +18,11 @@
 // let gender = prompt("Pleace Enter your Gender...");
 
 // if(gender === "male"){
-//     var output = ("Good Morning sir,")
+//     output = ("Good Morning sir,")
 // }else if(gender === "female"){
-//     var output = ("Good Morning Me'em,")
+//     output = ("Good Morning Me'em,")
 // }else{
-//     var output = ("Pleace currect your answer!!")
+//     output = ("Invalid gender!!")
 // }
 // document.write(output);
 
@@ -172,29 +172,28 @@
 // //  c..) Operation (+, -, *, /, %)..
 // // Compute & show the Calculator result to user...
 
-// let num1 = prompt("Enter First Number...");
-// let num2 = prompt("Enter Second Number...");
-// let operator = prompt("Enter Operator (+, -, *, /, %)...");
-
-// let result;
+// const num1 = prompt("Enter First Number...");
+// const num2 = prompt("Enter Second Number...");
+// const operator = prompt("Enter Operator (+, -, *, /, %)...");
 
 // if(operator === "+"){
-//     result = Number(num1) + Number(num2);
+//         result = (num1) + (num2);
 // }else if(operator === "-"){
-//     result = Number(num1) - Number(num2);
+//         result = (num1) - (num2);
 // }else if(operator === "*"){
-//     result = Number(num1) * Number(num2);
+//         result = (num1) * (num2);
 // }else if(operator === "/"){
 //     if(num2 === "0"){
 //         alert("Cannot divide by zero!");
 //     }else{
-//         result = Number(num1) / Number(num2);}
+//         result = (num1) / (num2);}
 // }else if(operator === "%"){
 //     if(num2 === "0"){
 //         alert("Cannot percentage by zero!");
 //     }else{
-//         result = Number(num1) % Number(num2);}
+//         result = (num1) % (num2);}
 // }else{
 //     alert("Invalid operator!");}
+
 // document.write("Result: " + result);
 
